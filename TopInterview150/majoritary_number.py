@@ -16,4 +16,7 @@ class Solution:
                 count += 1
         if count > len(nums) // 2:        
             return candidate
+        else:
+            raise ValueError("No hay elemento mayoritario válido")
+
             
