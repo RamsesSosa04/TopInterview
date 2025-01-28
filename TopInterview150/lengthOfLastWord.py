@@ -4,3 +4,4 @@ class Solution:
         s = s.strip()
         word = s.split()
         return len(word[-1])
+    
