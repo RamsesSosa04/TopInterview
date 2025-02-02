@@ -4,3 +4,4 @@ class Solution:
         total_gas = 0
         current_gas = 0
         start = 0
+        
