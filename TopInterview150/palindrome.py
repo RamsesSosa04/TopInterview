@@ -1,3 +1,4 @@
+#Palindrome
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         # Filtrar los caracteres alfanuméricos y convertir a minúsculas
