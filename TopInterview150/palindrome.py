@@ -8,3 +8,10 @@ class Solution:
         
         # Comparar la cadena filtrada con su reverso
         return filtered_string == filtered_string[::-1]
+# Crear una instancia de la clase Solution
+sol = Solution()
+
+# Llamar al método isPalindrome con diferentes cadenas
+print(sol.isPalindrome("A man, a plan, a canal: Panama"))  # Output: True
+print(sol.isPalindrome("race a car"))  # Output: False
+print(sol.isPalindrome(" "))  # Output: True
