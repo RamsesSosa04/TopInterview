@@ -14,5 +14,5 @@ sol = Solution()
 
 # Llamar al método isPalindrome con diferentes cadenas
 print(sol.isPalindrome("A man, a plan, a canal: Panama"))  
-print(sol.isPalindrome("race a car"))  # Output: False
+print(sol.isPalindrome("race a car"))
 print(sol.isPalindrome(" "))  
