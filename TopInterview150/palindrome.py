@@ -7,7 +7,7 @@ class Solution:
         # Unir los caracteres filtrados en una cadena
         filtered_string = ''.join(filtered_chars)
         
-        # Comparar la cadena filtrada con su reverso
+
         return filtered_string == filtered_string[::-1]
 
 sol = Solution()
