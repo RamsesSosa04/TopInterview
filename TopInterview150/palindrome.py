@@ -9,7 +9,7 @@ class Solution:
         
         # Comparar la cadena filtrada con su reverso
         return filtered_string == filtered_string[::-1]
-# Crear una instancia de la clase Solution
+
 sol = Solution()
 
 print(sol.isPalindrome("A man, a plan, a canal: Panama"))  
