@@ -9,3 +9,7 @@ class Solution:
         for i in range(n):
             total += gas[i] - cost[i]
             tank += gas[i] - cost[i]
+
+            if tank < 0:
+                tank = 0
+                start = i + 1
