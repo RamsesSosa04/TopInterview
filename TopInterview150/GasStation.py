@@ -5,3 +5,7 @@ class Solution:
         total = 0
         tank = 0
         start = 0
+
+        for i in range(n):
+            total += gas[i] - cost[i]
+            tank += gas[i] - cost[i]
