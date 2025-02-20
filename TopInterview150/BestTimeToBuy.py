@@ -9,5 +9,4 @@ class Solution:
                 min = price
             else:
                 max_profit = max(max_profit, price - min)
-        return max_profit
-    
+        return max_profit    
