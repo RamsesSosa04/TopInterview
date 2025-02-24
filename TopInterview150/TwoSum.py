@@ -7,7 +7,7 @@ class Solution:
             complement = target - num
             
             if complement in map:
-                return [map[complement], i]  # Devolvemos los índices
+                return [map[complement], i]  
             
             # Si no, almacenamos el número actual en el hash map
             map[num] = i
