@@ -6,7 +6,6 @@ class Solution:
         for i, num in enumerate(nums):
             complement = target - num
             
-            # Verificamos si el complemento ya está en el hash map
             if complement in map:
                 return [map[complement], i]  # Devolvemos los índices
             
