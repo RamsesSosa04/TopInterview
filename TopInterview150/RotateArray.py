@@ -6,3 +6,9 @@ class Solution:
         """
         n =len(nums)
         k = k % n
+        
+        def reverse(start, end):
+            while start < end:
+                nums[start], nums[end] = nums[end], nums[start]
+                start += 1
+                end -= 1
