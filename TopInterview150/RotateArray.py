@@ -12,6 +12,4 @@ class Solution:
                 nums[start], nums[end] = nums[end], nums[start]
                 start += 1
                 end -= 1
-    reverse(0, n-1)    # Invertir todo el arreglo
-    reverse(0, k-1)    # Invertir los primeros k elementos
-    reverse(k, n-1)    # Invertir los últimos n-k elementos
+            
