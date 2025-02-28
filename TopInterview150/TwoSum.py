@@ -14,5 +14,4 @@ class Solution:
             # Si no, almacenamos el número actual en el hash map
             map[num] = i
         
-        # Si no se encuentra ninguna solución (aunque el problema dice que siempre hay una)
         return []
