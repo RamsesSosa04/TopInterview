@@ -11,7 +11,6 @@ class Solution:
             if complement in map:
                 return [map[complement], i]  # Devolvemos los índices
             
-            # Si no, almacenamos el número actual en el hash map
             map[num] = i
         
         return []
