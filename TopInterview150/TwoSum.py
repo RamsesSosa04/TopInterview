@@ -15,3 +15,4 @@ class Solution:
         
         # Si no se encuentra ninguna solución (aunque el problema dice que siempre hay una)
         return []
+    
