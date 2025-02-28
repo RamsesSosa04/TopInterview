@@ -9,7 +9,7 @@ class Solution:
             
             # Verificamos si el complemento ya está en el hash map
             if complement in map:
-                return [map[complement], i]  # Devolvemos los índices
+                return [map[complement], i] 
             
             map[num] = i
         
