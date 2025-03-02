@@ -8,5 +8,3 @@ class Solution:
         return filtered_string == filtered_string[::-1]
 sol = Solution()
 print(sol.isPalindrome("A man, a plan, a canal: Panama"))  
-print(sol.isPalindrome("race a car"))
-print(sol.isPalindrome(" "))  
