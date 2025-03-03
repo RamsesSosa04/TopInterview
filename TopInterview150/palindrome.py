@@ -7,4 +7,4 @@ class Solution:
         filtered_string = ''.join(filtered_chars)
         return filtered_string == filtered_string[::-1]
 sol = Solution()
-print(sol.isPalindrome("Ana"))  
+print(sol.isPalindrome("windows"))  
