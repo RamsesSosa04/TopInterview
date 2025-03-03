@@ -9,3 +9,4 @@ class Solution:
                 total += digit ** 2
                 number //= 10
             return total
+        seen = set()
