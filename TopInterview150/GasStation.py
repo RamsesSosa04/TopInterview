@@ -15,3 +15,4 @@ class Solution:
                 start = i + 1
         
         return start if total >= 0 else -1
+    
