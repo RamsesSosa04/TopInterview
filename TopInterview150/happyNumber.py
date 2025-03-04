@@ -10,3 +10,7 @@ class Solution:
                 number //= 10
             return total
         seen = set()
+        while n != 1 and n not in seen:
+            seen.add(n)
+            n = sum_of_squares(n)
+        return n == 1
