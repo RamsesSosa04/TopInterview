@@ -22,3 +22,4 @@ class Solution:
                 total += value
             valor_anterior = value
         return total
+    
