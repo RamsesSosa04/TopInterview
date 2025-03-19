@@ -1,1 +1,2 @@
 #Happy number
+class Solution:
