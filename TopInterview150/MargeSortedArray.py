@@ -15,7 +15,7 @@ class Solution:
                 nums1[p] = nums2[p2]
                 p -=1
             p -= 1
-        while p2 >= 0:
+        while p2 >= 0: 
             nums1[p] = nums2[p2]
             p-=1
         p-=1
