@@ -8,7 +8,7 @@ def select_student(students):
     return result
 students = [
     {"student_id" : 101, "name" : "Ulises", "age" : 29},
-    {"student_id" : 102, "name" : "Ramses", "age" : 20},
+    {"student_id" : 111, "name" : "Ramses", "age" : 20},
     {"student_id" : 103, "name" : "Aurelio", "age" : 53}
 ]
 print(select_student(students))
