@@ -10,3 +10,5 @@ student_data = [
     [3, 13],
     [4, 12]
 ] 
+df = createDataframe(student_data)
+print(df)
