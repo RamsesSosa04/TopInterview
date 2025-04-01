@@ -2,7 +2,6 @@ import pandas as pd
 
 def getDataframeSize(players: pd.DataFrame):
     return list(players.shape)
-
 data = {
     'player_id': [846, 749, 155, 583, 388, 883, 355, 247, 761, 642],
     'name': ['Mason', 'Riley', 'Bob', 'Isabella', 'Zachary', 'Ava', 'Violet', 'Thomas', 'Jack', 'Charlie'],
@@ -10,3 +9,4 @@ data = {
     'position': ['Forward', 'Winger', 'Striker', 'Goalkeeper', 'Midfielder', 'Defender', 'Striker', 'Striker', 'Midfielder', 'Center-back'],
     'team': ['RealMadrid', 'Barcelona', 'ManchesterUnited', 'Liverpool', 'BayernMunich', 'Chelsea', 'Juventus', 'ParisSaint-Germain', 'ManchesterCity', 'Arsenal']
 }
+players = pd.DataFrame(data)
