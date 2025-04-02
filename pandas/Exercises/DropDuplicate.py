@@ -5,8 +5,8 @@ def dropDuplicateEmails(customers: pd.DataFrame) -> pd.DataFrame:
 data = {
     'customer_id': [1, 2, 3, 4, 5, 6],
     'name': ['Ella', 'David', 'Zachary', 'Alice', 'Finn', 'Violet'],
-    'email': ['emily@example.com', 'michael@example.com', 'sarah@example.com', 
-    'john@example.com', 'john@example.com', 'alice@example.com']
+    'email': ['emily@gmail.com', 'michael@gmail.com', 'sarah@gmail.com', 
+    'john@gmail.com', 'john@gmail.com', 'alice@gmail.com']
 }
 customers = pd.DataFrame(data)
 print(dropDuplicateEmails(customers).to_string())
