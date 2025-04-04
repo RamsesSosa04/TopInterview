@@ -10,5 +10,4 @@ data = {
     'team': ['RealMadrid', 'Barcelona', 'ManchesterUnited', 'Liverpool', 'BayernMunich', 'Chelsea', 'Juventus', 'ParisSaint-Germain', 'ManchesterCity', 'Arsenal']
 }
 players = pd.DataFrame(data)
-    
 print(getDataframeSize(players))
