@@ -1,7 +1,7 @@
 import pandas as pd
 
 def getDataframeSize(players: pd.DataFrame):
-    return list(players.shape) #shape es una propiedad de los DataFrames de Pandas que devuelve una tupla con (filas, columnas)
+    return list(players.shape)
 data = {
     'player_id': [846, 749, 155, 583, 388, 883, 355, 247, 761, 642],
     'name': ['Mason', 'Riley', 'Bob', 'Isabella', 'Zachary', 'Ava', 'Violet', 'Thomas', 'Jack', 'Charlie'],
