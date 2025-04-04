@@ -7,7 +7,7 @@ data = {
     'name': ['Mason', 'Riley', 'Bob', 'Isabella', 'Zachary', 'Ava', 'Violet', 'Thomas', 'Jack', 'Charlie'],
     'age': [21, 30, 28, 32, 24, 23, 18, 27, 33, 36],
     'position': ['Forward', 'Winger', 'Striker', 'Goalkeeper', 'Midfielder', 'Defender', 'Striker', 'Striker', 'Midfielder', 'Center-back'],
-    'team': ['RealMadrid', 'Barcelona', 'ManchesterUnited', 'Liverpool', 'BayernMunich', 'Chelsea', 'Juventus', 'ParisSaint-Germain', 'ManchesterCity', 'Arsenal']
+    'team': ['Real Madrid', 'Barcelona', 'Manchester United', 'Liverpool', 'Bayern Munich', 'Chelsea', 'Juventus', 'ParisSaint-Germain', 'Manchester City', 'Arsenal']
 }
 players = pd.DataFrame(data)
 print(getDataframeSize(players))
