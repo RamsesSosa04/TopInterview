@@ -1,7 +1,7 @@
 import pandas as pd
 
 def concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
-    return pd.concat([df1, df2], axis=0)
+    return pd.concat([df1, df2], axis=0) # pd.concat() combines dataframes along one axis (files or colums(0, 1)) 
 data1 = {
     'student_id': [1, 2, 3, 4],
     'name': ['Mason', 'Ava', 'Taylor', 'Georgia'],
