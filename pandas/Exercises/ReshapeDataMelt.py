@@ -8,3 +8,10 @@ def meltTable(report: pd.DataFrame) -> pd.DataFrame:
         var_name='quarter',
         value_name='sales'
     )
+data = {
+    'product': ['Umbrella', 'SleepingBag'],
+    'quarter_1': [417, 800],
+    'quarter_2': [224, 936],
+    'quarter_3': [379, 93],
+    'quarter_4': [611, 875]
+}
