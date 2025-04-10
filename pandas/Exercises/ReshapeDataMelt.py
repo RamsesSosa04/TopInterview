@@ -16,3 +16,4 @@ data = {
     'quarter_4': [611, 875]
 }
 report = pd.DataFrame(data)
+melted_report = meltTable(report)
