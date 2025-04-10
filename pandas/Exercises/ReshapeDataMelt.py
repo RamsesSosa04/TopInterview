@@ -17,3 +17,4 @@ data = {
 }
 report = pd.DataFrame(data)
 melted_report = meltTable(report)
+print(melted_report.to_string())
