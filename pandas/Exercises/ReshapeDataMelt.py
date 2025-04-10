@@ -15,3 +15,4 @@ data = {
     'quarter_3': [379, 93],
     'quarter_4': [611, 875]
 }
+report = pd.DataFrame(data)
