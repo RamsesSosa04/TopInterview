@@ -9,3 +9,5 @@ data = {
     'position': ['Forward', 'Winger', 'Striker', 'Goalkeeper', 'Midfielder', 'Defender', 'Striker', 'Striker', 'Midfielder', 'Center-back'],
     'team': ['Real Madrid', 'Barcelona', 'Manchester United', 'Liverpool', 'Bayern Munich', 'Chelsea', 'Juventus', 'ParisSaint-Germain', 'Manchester City', 'Arsenal']
 }
+players = pd.DataFrame(data)
+print(getDataframeSize(players))
