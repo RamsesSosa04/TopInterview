@@ -8,3 +8,5 @@ data = {
     'quantity': [None, None, 779, 849],
     'price': [135, 821, 9319, 3051]    
 }
+products = pd.DataFrame(data)
+print(fillMissingValues(products))
