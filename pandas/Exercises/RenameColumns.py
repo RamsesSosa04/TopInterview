@@ -8,3 +8,5 @@ def renameColumns(students: pd.DataFrame) -> pd.DataFrame:
         'last': 'last_name',
         'age': 'age_in_years'
     }
+    students = students.rename(columns=rename)
+    return students
