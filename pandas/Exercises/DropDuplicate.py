@@ -8,3 +8,5 @@ data = {
     'email': ['emily@gmail.com', 'michael@gmail.com', 'sarah@gmail.com', 
     'john@gmail.com', 'john@gmail.com', 'alice@gmail.com']
 }
+customers = pd.DataFrame(data)
+print(dropDuplicateEmails(customers).to_string())
