@@ -9,3 +9,4 @@ data = {
     'age': [98, 50, 6, 45, 100, 26],
     'weight': [464, 41, 328, 463, 50, 349]
 }
+animals = pd.DataFrame(data)
