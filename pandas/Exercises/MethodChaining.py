@@ -11,3 +11,4 @@ data = {
 }
 animals = pd.DataFrame(data)
 heavyAnimals = findHeavyAnimals(animals)
+print(heavyAnimals.to_string(index=False))
