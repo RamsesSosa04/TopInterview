@@ -10,3 +10,4 @@ data = {
     'weight': [464, 41, 328, 463, 50, 349]
 }
 animals = pd.DataFrame(data)
+heavyAnimals = findHeavyAnimals(animals)
