@@ -1,1 +1,1 @@
-This repositorie I have my exercises
+This repositorie is for improve my programming logic.
