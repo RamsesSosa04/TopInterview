@@ -1,1 +1,1 @@
-This repositorie is to improve my programming logic.
+In this repository I use technologies like python
