@@ -1,1 +1,1 @@
-This repositorie is for improve my programming logic.
+This repositorie is to improve my programming logic.
