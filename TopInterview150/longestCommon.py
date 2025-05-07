@@ -7,4 +7,5 @@ class Solution:
             return ""
         shortest_str = min(strs, key=len)
         
- 
+        for i, char in enumerate(shortest_str):
+   
