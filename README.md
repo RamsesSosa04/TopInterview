@@ -1,1 +1,1 @@
-In this repository I use technologies like Python and Jupyter notebook
+In this repository I use technologies like Python and Jupyter Notebook
